@@ -2,8 +2,6 @@ version: '3.9'
 
 services:
   db:
-    build:
-      dockerfile: Dockerfile
     image: postgres
     container_name: jasper-cloud-db
     restart: always
