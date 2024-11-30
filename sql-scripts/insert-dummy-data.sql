@@ -1,0 +1,1 @@
+insert into user_information (firstname, lastname, username, email, password,) values ('Example', 'User', 'exampleuser', 'exampleuser@example.com', 'password123');
