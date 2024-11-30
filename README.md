@@ -22,5 +22,6 @@ JasperCloud database project using PostgreSQL.
    - Password: ```jaspercloud```
 4. Connect to the server.
 
-## Running the SQL Scripts
-The scripts contained in the *sql-scripts* folder are work-in-progress scripts. These will be used to hold dummy data values to populate the tables as well as to update existing table structures until an alternative method is found.
+## Creating Tables Using Entity Framework
+1. Clone the [JasperCloud](https://github.com/byip61/JasperCloud) repository.
+2. In the built-in terminal on Visual Studio or Visual Studio Code, run ```dotnet ef database update -v --project JasperCloud```
